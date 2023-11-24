@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import pickle
+import joblib
 
 st.set_page_config(layout="wide")
 
@@ -13,7 +13,7 @@ footer {visibility: hidden;}
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 movies_ds = pd.read_pickle("Saved Pickle File/pickle_movie")
-similer_matrix = pickle.load(open("Saved Pickle File/similer_matrix.pkl", 'rb'))
+similer_matrix = joblib.load("Saved Pickle File/similer_matrix.pkl")
 
 def get_poster(movie_poster):
     return movies_ds[movies_ds["id"]==movie_poster]["poster"].values[0]
