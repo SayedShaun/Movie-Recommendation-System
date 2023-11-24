@@ -1,4 +1,4 @@
-![demo](https://github.com/SayedShaun/Movie-Recommendation-System/assets/126845316/0e1e3af5-b704-4c86-bc4c-759151418ef8)
+![demo](https://github.com/SayedShaun/Movie-Recommendation-System/assets/126845316/d50e38e6-827b-447e-a950-21977980608e)
 
 Live Demo: https://recommendation-movie.streamlit.app
 # Movie Recommendation System
